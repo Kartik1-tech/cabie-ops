@@ -40,7 +40,7 @@ No markdown formatting, no \`\`\`json wrappers, no explanations. Output ONLY the
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'nex-agi/nex-n2-pro:free',
+        model: 'openai/gpt-oss-120b:free',
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: text }
